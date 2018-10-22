@@ -12,6 +12,7 @@
     <b-container>
       <b-nav pills>
         <router-link class="nav-link" to="/" exact>Home</router-link>
+        <router-link class="nav-link" to="/cart">Cart (0)</router-link>
         <router-link class="nav-link" to="/orders">Orders</router-link>
       </b-nav>
       <router-view/>

@@ -21,5 +21,7 @@
 </template>
 
 <style>
-
+.active {
+  background-color: #17A2B8 !important;
+}
 </style>

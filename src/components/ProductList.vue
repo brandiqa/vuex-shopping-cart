@@ -1,7 +1,11 @@
 <template>
   <div class="product-list">
     <b-row>
-      <Product v-bind:product="product"/>
+      <Product
+        v-for="product in products"
+        v-bind:key="product.name"
+        v-bind:product="product"
+      />
     </b-row>
   </div>
 </template>
@@ -16,11 +20,11 @@
     },
     data() {
       return {
-        product: {
-          name:"Samsung Galaxy S9",
-          stock: 16,
-          price: "$707.99"
-        }
+        products: [
+          { name:"Samsung Galaxy S9", stock: 8, price: "$707.99" },
+          { name:"LG V35 ThinQ 64GB", stock: 12, price: "$649.99" },
+           { name:"Xiaomi Mi Mix 2S", stock: 4, price: "$447.90" }
+        ]
       }
     }
   }

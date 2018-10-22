@@ -2,10 +2,10 @@
   <div id="app">
     <b-jumbotron  bg-variant="info" text-variant="white">
       <template slot="header">
-        Vue Shopping Cart
+        Vuex Shopping Cart
       </template>
       <template slot="lead">
-        Powered by Vuex
+        Built using Bootstrap-Vue.js
       </template>
     </b-jumbotron>
 

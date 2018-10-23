@@ -7,12 +7,11 @@
 <script>
   const items = [
     { product: 'Pocophone FI', quantity: 2, price: "$200", cost: "$400" },
-    { product: 'Samsung S9', quantity: 2, price: "$200", cost: "$900" },
-    { price: "TOTAL:", cost: "$1300"}
+    { product: 'Samsung S9', quantity: 1, price: "$900", cost: "$900" },
+    { price: "TOTAL:", cost: "$1,300"}
   ]
 
   export default {
-    name: 'ShoppingCart',
     data () {
       return {
         items: items

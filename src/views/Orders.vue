@@ -1,6 +1,16 @@
 <template>
   <div class="orders">
-    <h2>Your Orders</h2>
-    <p>No orders here</p>
+    <h2>My Orders</h2>
+    <OrderList />
   </div>
 </template>
+
+<script>
+  import OrderList from '../components/OrderList.vue'
+
+  export default {
+    components: {
+      OrderList
+    }
+  }
+</script>

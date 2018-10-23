@@ -12,7 +12,6 @@
 
 <script>
   export default {
-    name: 'Product',
     props: ['product']
   }
 </script>

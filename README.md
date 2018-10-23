@@ -1,4 +1,4 @@
-# vue-shopping-cart
+# vuex-shopping-cart
 
 ## Project setup
 ```

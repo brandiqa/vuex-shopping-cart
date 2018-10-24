@@ -11,9 +11,9 @@
 
 <script>
   const items = [
-    { product: 'Pocophone FI', quantity: 2, price: "$200", cost: "$400" },
-    { product: 'Samsung S9', quantity: 1, price: "$900", cost: "$900" },
-    { price: "TOTAL:", cost: "$1,300", _rowVariant: 'warning'}
+    { product: 'Pocophone FI', quantity: 2, price: "$370", cost: "$740" },
+    { product: 'Samsung S9+', quantity: 1, price: "$709", cost: "$709" },
+    { price: "TOTAL", cost: "$1,449", _rowVariant: 'warning'}
   ]
   const fields = ['product', 'quantity', 'price','cost', 'action']
 

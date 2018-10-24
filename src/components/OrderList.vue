@@ -11,7 +11,7 @@
 <script>
   const fields = ["orderNo", "products", "totalCost"]
   const items = [
-    { products: "2x Pocophone @ $350, 1x Samsung S9 @ $700", totalCost: "$1,300" },
+    { products: "2x Pocophone @ $370, 1x Samsung S9 @ $709", totalCost: "$1,449" },
   ]
 
   export default {

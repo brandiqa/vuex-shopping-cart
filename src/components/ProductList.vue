@@ -22,13 +22,12 @@
     data() {
       return {
         products: [
-          { name:"Samsung S9", stock: 8, price: "$707.99" },
-          { name:"LG V35 ThinQ", stock: 12, price: "$649.99" },
-          { name:"Xiaomi Mi Mix 2S", stock: 4, price: "$447.90" },
-          { name:"Samsung S8+", stock: 8, price: "$655.99" },
-          { name:"IPhone XS Max", stock: 12, price: "$1499.99" },
-          { name:"Google Pixel 2", stock: 4, price: "$899.90" },
-          { name:"Redmi S2", stock: 12, price: "$160.99" },
+          { name:"Samsung S9+", specs: "6.2' 64GB", stock: 8, price: "$709.00" },
+          { name:"Pocophone F1", specs: "6.18' 64GB", stock: 12, price: "$370" },
+          { name:"Apple iPhone X", specs: "5.8' 64GB", stock: 9, price: "$1,069.00" },
+          { name:"Huwaei P20 Pro", specs: "6.1' 128GB", stock: 16, price: "$728.99" },
+          { name:"Huawei Mate 20 Pro", specs: "6.53' 256GB", stock: 24, price: "$975.90" },
+          { name:"Redmi S2", specs: "5.99 32GB", stock: 5, price: "$160.99" },
         ]
       }
     },

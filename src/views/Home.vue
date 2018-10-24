@@ -1,5 +1,6 @@
 <template>
   <div class="products">
+    <h2>Top Smartphones</h2>
     <ProductList />
   </div>
 </template>

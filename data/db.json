@@ -1,0 +1,35 @@
+{
+  "products": [
+    { "name": "Samsung S9+", "specs": "6.2' 64GB", "stock": 8, "price": 709
+    },
+    { "name": "Pocophone F1", "specs": "6.18' 64GB", "stock": 12, "price": 370
+    },
+    { "name": "Apple iPhone X", "specs": "5.8' 64GB", "stock": 9, "price": 1069
+    },
+    { "name": "Huwaei P20 Pro", "specs": "6.1' 128GB", "stock": 16, "price": 728.9
+    },
+    { "name": "Huawei Mate 20 Pro", "specs": "6.53' 256GB", "stock": 24, "price": 975.9
+    },
+    { "name": "Redmi S2", "specs": "5.99 32GB", "stock": 5, "price": 160.99
+    }
+  ],
+  "cart":[],
+  "orders": [
+    {
+      "orderDate": "2018-10-24",
+      "products": [
+        "2x Pocophone @ $370,",
+        {
+          "product": "Pocophone F1",
+          "quantity": 2,
+          "price": 370
+        },
+        {
+          "product": "Samsung S9",
+          "quantity": 1,
+          "price": 709
+        }
+      ]
+    }
+  ]
+}

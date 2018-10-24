@@ -9,9 +9,9 @@
 </template>
 
 <script>
-  const fields = ["orderNo", "products", "totalCost"]
+  const fields = ["orderNo", "orderDate", "products", "totalCost"]
   const items = [
-    { products: "2x Pocophone @ $370, 1x Samsung S9 @ $709", totalCost: "$1,449" },
+    { orderDate: "2018-10-24", products: "2x Pocophone @ $370, 1x Samsung S9 @ $709", totalCost: "$1,449" },
   ]
 
   export default {
